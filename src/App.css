@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito", sans-serif;
+}
+.body-main {
+    display: flex;
+}
+.dashboard {
+    height: calc(100vh - 70px);
+    overflow-y: scroll;
+}
+
+.dashboard::-webkit-scrollbar {
+    display: none;
+}
+
+.left-bar {
+    width: 280px;
+    transition: width 0.3s ease-in-out;
+}
+
+.navcollpase {  
+    width: 80px;
+}
+.navcollpase p{
+    display: none;
+}
+.navcollpase .invoice-btn{
+    display: none;
+}
+.navcollpase .arrow{
+    display: none;
+}
+.navcollpase .bar-headings{
+    display: none;
+}
+.navcollpase .bar-head{
+    gap: 0px;
+}
+.navcollpase svg{
+    font-size: 25px;
+}
+.navcollpase .logo-name img{
+    width: 30px;
+}
